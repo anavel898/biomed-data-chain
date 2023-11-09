@@ -1,20 +1,16 @@
 # 🏗 Scaffold-ETH
 
-# 🚨🚨 This repository has been archived and is now read-only 🚨🚨
-
-You are still welcome to fork and use as a template but no more changes will be made to this repository.
-
-## 🎖 Scaffold-ETH 2 is the latest version, we recommend you fork: https://github.com/scaffold-eth/scaffold-eth-2
-
----
-
 > everything you need to build on Ethereum! 🚀
 
 🧪 Quickly experiment with Solidity using a frontend that adapts to your smart contract:
 
 ![image](https://user-images.githubusercontent.com/2653167/124158108-c14ca380-da56-11eb-967e-69cde37ca8eb.png)
 
+---
 
+🎖 Scaffold-ETH 2 is the latest version of this developer experience, we recommend you fork: https://github.com/scaffold-eth/se-2
+
+---
 
 # 🏄‍♂️ Quick Start
 
@@ -47,7 +43,7 @@ yarn start
 
 > 4️⃣ in a third terminal window, 🛰 deploy your contract:
 
-🚨 if you are not deploying to localhost, you will need to run `yarn generate` first and then fund the deployer account. To view account balances, run `yarn account`. You will also need to update `hardhat-config.js` with the correct default network.
+🚨 if you are not deploying to localhost, you will need to run `yarn generate` first and then fund the deployer account. To view account balances, run `yarn account`. You will aslo need to update `hardhat-config.js` with the correct default network.
 
 ```bash
 cd scaffold-eth

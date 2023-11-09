@@ -2,3 +2,44 @@
   text-align: center;
   padding-left: calc(100vw - 100%);
 }
+
+.bright {
+  color: gray;
+  font-size: 32px;
+}
+
+.bigText {
+  font-size: 20px;
+}
+
+.justify {
+  text-align: justify;
+  padding: 10;
+}
+
+.bottom {
+  padding-bottom: 50px;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+  padding-left: calc(100vw - 100%);
+  width: 100%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.table {
+  position: relative;
+  text-align: center;
+  padding-left: calc(100vw - 90%);
+  width: 100%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.curved {
+  border: 1px solid black;
+  border-radius: 10px;
+}

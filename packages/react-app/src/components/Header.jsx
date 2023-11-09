@@ -1,9 +1,9 @@
 import React from "react";
 import { Typography } from "antd";
+// import logo from "../cnaf-logo.png";
+// import { Image } from "antd";
 
 const { Title, Text } = Typography;
-
-// displays a page header
 
 export default function Header({ link, title, subTitle, ...props }) {
   return (
@@ -24,7 +24,5 @@ export default function Header({ link, title, subTitle, ...props }) {
 }
 
 Header.defaultProps = {
-  link: "https://github.com/scaffold-eth/scaffold-eth",
-  title: "🏗 Scaffold-Eth",
-  subTitle: "Forkable Ethereum dev stack focused on fast product iteration",
+  title: "BioMed Data Chain",
 };

@@ -1,4 +1,13 @@
 export { default as Home } from "./Home";
-export { default as ExampleUI } from "./ExampleUI";
-export { default as Hints } from "./Hints";
-export { default as Subgraph } from "./Subgraph";
+export { default as About } from "./About";
+export { default as Profile } from "./Profile";
+export { default as Manager } from "./Manager";
+export { default as ExternalProfile } from "./ExternalProfile";
+export { default as ExtProfileForController } from "./ExtProfileForController";
+export { default as CommonProfile } from "./CommonProfile";
+export { default as PatientProfile } from "./PatientProfile";
+export { default as ResearcherProfile } from "./ResearcherProfile";
+export { default as HospitalProfile } from "./HospitalProfile";
+export { default as RequestManager } from "./RequestManager";
+export { default as ConsentManager } from "./ConsentManager";
+export { default as ProfileManager } from "./ProfileManager";
