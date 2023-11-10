@@ -1,6 +1,6 @@
 import { Button, Divider, Input } from "antd";
 import React, { useState } from "react";
-import { AddDataset, VisualizeProfile } from "../components";
+import { AddDataset, VisualizeProfile } from ".";
 
 function ProfileManager({ currentProfileID, userRole, tx, writeContracts, bmdcContract }) {
   const [newProfileAddress, setNewProfileAddress] = useState();

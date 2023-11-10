@@ -1,7 +1,5 @@
 import React from "react";
 import { Typography } from "antd";
-// import logo from "../cnaf-logo.png";
-// import { Image } from "antd";
 
 const { Title, Text } = Typography;
 

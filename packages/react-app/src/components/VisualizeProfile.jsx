@@ -1,6 +1,6 @@
 import { Button, Input } from "antd";
 import React, { useState } from "react";
-import { ExternalProfile, ExtProfileForController } from "../views";
+import { ExternalProfile, ExtProfileForController } from ".";
 
 function VisualizeProfile({ userRole, bmdcContract }) {
   const [profileID, setProfileID] = useState();

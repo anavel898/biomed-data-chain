@@ -1,5 +1,5 @@
 import { Alert, Spin } from "antd";
-import { ConsentManager, ProfileManager, RequestManager } from ".";
+import { ConsentManager, ProfileManager, RequestManager } from "../components";
 
 export default function Manager({
   tx,

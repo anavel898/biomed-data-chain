@@ -1,5 +1,5 @@
 import { Alert, Spin } from "antd";
-import { PatientProfile, ResearcherProfile, HospitalProfile } from "./";
+import { PatientProfile, ResearcherProfile, HospitalProfile } from "../components";
 
 function Profile({
   address,
