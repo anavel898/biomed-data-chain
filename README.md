@@ -1,6 +1,7 @@
-# Biomed Data Chain
+# BioMed Data Chain
 
 > A decentralized application for sharing biomedical data between hospitals, researchers and patients.
+> BMDC was created using the scaffold-eth toolkit for DApp development.
 
 ---
 
@@ -18,7 +19,7 @@ Prerequisites: [Node (v18 LTS)](https://nodejs.org/en/download/) plus [Yarn (v1.
 git clone https://github.com/anavel898/biomed-data-chain
 ```
 
-> 2️⃣ install and start your 👷‍ Hardhat chain:
+> 2️⃣ install and start a Hardhat chain:
 
 ```bash
 cd biomed-data-chain
@@ -26,14 +27,14 @@ yarn install
 yarn chain
 ```
 
-> 3️⃣ in a second terminal window, 🛰 deploy your contract: :
+> 3️⃣ in a second terminal window, deploy your contract: :
 
 ```bash
 cd biomed-data-chain
 yarn deploy
 ```
 
-> 4️⃣ in a third terminal window, start your 📱 frontend:
+> 4️⃣ in a third terminal window, start your frontend:
 
 ```bash
 cd biomed-data-chain
