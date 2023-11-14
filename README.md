@@ -13,7 +13,7 @@ It was created with data privacy principles outlined by the GDPR in mind. The ap
 BMDC was created with the idea that its running and upkeep are a mutual effort of a consortium of hospitals and universities, all running blockchain nodes and acting as validators in the private permissioned network.
 
 > The first step common to all user types is to connect to MetaMask. The UI prompts the user to do so.
-> ![image]  
+![profile-wo-wallet](https://github.com/anavel898/biomed-data-chain/assets/101400549/674fa951-db7d-4cde-8091-1778f79bd182)
 > &nbsp;  
 > After logging in, the application is rendered differently based on the profile information of the connected account, which is automatically fetched from the blockchain upon connecting.
 
@@ -24,12 +24,10 @@ Hospital employees, i.e., doctors act on behalf of their respective institution 
 **Key actions:** creating new profiles, adding patient data into the system (data controller).
 
 ### Profile tab
-
-![image]
+![profile-tab-controller(wInfo)](https://github.com/anavel898/biomed-data-chain/assets/101400549/8a42766d-e5fe-48c6-8bce-7dd9df410b0d)
 
 ### Manager tab
-
-![image]
+![manager-tab-controller-1](https://github.com/anavel898/biomed-data-chain/assets/101400549/528a62ad-73ce-4387-bb49-dfffdba2e0a0)
 
 ## Researcher view:
 
@@ -38,12 +36,12 @@ Researchers who participate in the system must be affiliated with one of the Uni
 **Key actions:** making requests for consent and accessing data (data processor)
 
 ### Profile tab
-
-![image]
+![profile-tab-processor(full)](https://github.com/anavel898/biomed-data-chain/assets/101400549/76472b6d-237f-40c0-8fbf-0039898260a8)
 
 ### Manager tab
 
-![image]
+![manager-tab-processor](https://github.com/anavel898/biomed-data-chain/assets/101400549/747b433a-e9a4-4b2b-ad73-cc0eda581c87)
+
 
 ## Patient view:
 
@@ -52,12 +50,11 @@ Users with the role of patient are intended to periodically check their profiles
 **Key actions:** responding to requests for consent (data subject)
 
 ### Profile tab
-
-![image]
+![profile-tab-subject(full)](https://github.com/anavel898/biomed-data-chain/assets/101400549/52a4ca82-c27c-407f-afbf-3b730fbd00df)
 
 ### Manager tab
 
-![image]
+![manager-tab-subject](https://github.com/anavel898/biomed-data-chain/assets/101400549/cb9f2d3b-c145-4d1d-9fd5-11d887bbc0dc)
 
 # Quick Start
 
@@ -103,14 +100,14 @@ Open http://localhost:3000 to see the app
 
 # Architecture:
 
-![image]
+![BMDC-scheme](https://github.com/anavel898/biomed-data-chain/assets/101400549/d99ef437-b977-4475-a6e4-0e18e34677e2)
 
 > User profile data and metadata about the sensitive data being shared over the system is stored on the blockchain, where the logic for access and right modification of this information is provided through the [BMDC smart contract](https://github.com/anavel898/biomed-data-chain/blob/master/packages/hardhat/contracts/CMS.sol).
 
 > A private InterPlanetary File System network is used as a decentralized storage layer (shown in the image below). Once a patient gives consent for someone to access their data, a link for the retrieval of the data through the private IPFS network gateway is provided to the receiver of the consent.  
 > 🚨 This project was developed as part of my internship at INFN-CNAF and such IPFS network was simulated using the INFN Cloud resources. Considering I'm no longer affiliated with INFN-CNAF, the mentioned gateway is no longer active, so attempts to access the links now will result in an HTTP error 503.
 
-![image]
+![storage-network-architecture](https://github.com/anavel898/biomed-data-chain/assets/101400549/e328b876-d7c2-4e57-8b79-3c57375143ed)
 
 > The web interface was built as a React application, leveraging some options provided by the Scaffold-eth toolkit. User identities are managed automatically by connecting an account through MetaMask. Once the account is connected all the necessary data is automatically fetched from the blockchain by an automatic call to the smart contract.  
 > The WebUI has four tabs, three of which are rendered dynamically based on the type of the current user.
