@@ -111,3 +111,5 @@ Open http://localhost:3000 to see the app
 
 > The web interface was built as a React application, leveraging some options provided by the Scaffold-eth toolkit. User identities are managed automatically by connecting an account through MetaMask. Once the account is connected all the necessary data is automatically fetched from the blockchain by an automatic call to the smart contract.  
 > The WebUI has four tabs, three of which are rendered dynamically based on the type of the current user.
+>
+ #### For more details about the project you can read my [thesis](https://drive.google.com/file/d/1JSSF4YolQWaGptOGOuUGVX5g-8hobswv/view?usp=sharing).
